@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="logo2.png" type="image" sizes="16x16">	
+  <title>Catching Z's Website- Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 636px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #EAC4F6;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" ><img src="logo2.png"alt="Catching Z's" width="30" height="30"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="./sleep_tracker.html">Sleep Tracker</a></li>
+        <li><a href="./to_do_list.html">To-Do List</a></li>
+        <li><a href="./playlists.html">Playlists</a></li>
+        <li><a href="./notifications.html">Notifications</a></li>
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 align="center">Welcome to Catching Z's</h1>
+		<p align="center">Catching Z's is here to improve your sleep to help you feel better rested. Our site includes a
+		Sleep Tracker, a To-Do List, Playlists, and a Notification Center.<p>
+      <hr>
+      <h3><a href="./sleep_tracker.html">Sleep Tracker</a></h3>
+      <p>Our Sleep Tracker function will help you track when you are sleeping. By tracking your sleep, you
+	  will be able to develop healthier sleep habits such as going to sleep at the same time every night and
+	  turning off electronics before bed.</p>
+	  <h3><a href="./to_do_list.html">To-Do List</a></h3>
+      <p>Our To-Do List function will help relieve your stress by allowing you to keep your events and due 
+	  dates in order. By keeping yourself organized you will relieve your stress and sleep peacefully.</p>
+	  <h3><a href="./playlists.html">Playlists</a></h3>
+      <p>For those of you who like to listen to the radio or TV as you sleep look no further! Our Playlists function
+	  has all your favorite tunes and sounds. Just simply log into your Spotify or YouTube account and listen 
+	  to the crashing waves of the ocean, crickets chirping, or even heavy metal. Whatever helps you sleep the best!</p>
+	  <h3><a href="./notifications.html">Notifications</a></h3>
+      <p>Does your roomate keep waking you up by coming back late? Let them know you're trying to sleep 
+	  before they get home so they can be quiet. With our Notification function, you can send out a message 
+	  alerting them before they disrupt your sleep cycle. If necessary, you can even set a notification to be 
+	  sent out everyday at your bedtime!</p>
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+	<img src="logo2.png"alt="Catching Z's" width="35" height="35">
+</footer>
+
+</body>
+</html>
